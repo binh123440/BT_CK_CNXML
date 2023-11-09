@@ -66,10 +66,10 @@ namespace test1
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.label6.Location = new System.Drawing.Point(33, 26);
             this.label6.Name = "label6";
-            this.label6.Padding = new System.Windows.Forms.Padding(350, 0, 350, 0);
-            this.label6.Size = new System.Drawing.Size(1021, 41);
+            this.label6.Padding = new System.Windows.Forms.Padding(310, 0, 310, 0);
+            this.label6.Size = new System.Drawing.Size(1026, 41);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Quản lý khách hàng";
+            this.label6.Text = "QUẢN LÝ KHÁCH HÀNG";
             // 
             // groupBox1
             // 

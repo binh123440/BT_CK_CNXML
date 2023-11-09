@@ -45,11 +45,11 @@ namespace test1
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.label1.Location = new System.Drawing.Point(215, 55);
+            this.label1.Location = new System.Drawing.Point(198, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 41);
+            this.label1.Size = new System.Drawing.Size(223, 41);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Đăng nhập";
+            this.label1.Text = "ĐĂNG NHẬP";
             // 
             // tbTENDANGNHAP
             // 
