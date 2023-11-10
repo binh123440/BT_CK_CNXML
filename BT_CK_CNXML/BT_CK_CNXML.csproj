@@ -46,88 +46,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cập nhật sao lưu.cs">
+    <Compile Include="Cap_nhat_sao_luu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cập nhật sao lưu.Designer.cs">
-      <DependentUpon>Cập nhật sao lưu.cs</DependentUpon>
+    <Compile Include="Cap_nhat_sao_luu.Designer.cs">
+      <DependentUpon>Cap_nhat_sao_luu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Danh sách đơn hàng.cs">
+    <Compile Include="Danh_sach_don_hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Danh sách đơn hàng.Designer.cs">
-      <DependentUpon>Danh sách đơn hàng.cs</DependentUpon>
+    <Compile Include="Danh_sach_don_hang.Designer.cs">
+      <DependentUpon>Danh_sach_don_hang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quản lý kho hàng.cs">
+    <Compile Include="Quan_ly_kho_hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quản lý kho hàng.Designer.cs">
-      <DependentUpon>Quản lý kho hàng.cs</DependentUpon>
+    <Compile Include="Quan_ly_kho_hang.Designer.cs">
+      <DependentUpon>Quan_ly_kho_hang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quản lý khách hàng.cs">
+    <Compile Include="Quan_ly_khach_hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quản lý khách hàng.Designer.cs">
-      <DependentUpon>Quản lý khách hàng.cs</DependentUpon>
+    <Compile Include="Quan_ly_khach_hang.Designer.cs">
+      <DependentUpon>Quan_ly_khach_hang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quản lý nhân viên.cs">
+    <Compile Include="Quan_ly_nhan_vien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quản lý nhân viên.Designer.cs">
-      <DependentUpon>Quản lý nhân viên.cs</DependentUpon>
+    <Compile Include="Quan_ly_nhan_vien.Designer.cs">
+      <DependentUpon>Quan_ly_nhan_vien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tạo đơn hàng.cs">
+    <Compile Include="Tao_don_hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tạo đơn hàng.Designer.cs">
-      <DependentUpon>Tạo đơn hàng.cs</DependentUpon>
+    <Compile Include="Tao_don_hang.Designer.cs">
+      <DependentUpon>Tao_don_hang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Trang chủ.cs">
+    <Compile Include="Trang_chu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Trang chủ.Designer.cs">
-      <DependentUpon>Trang chủ.cs</DependentUpon>
+    <Compile Include="Trang_chu.Designer.cs">
+      <DependentUpon>Trang_chu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Đăng nhập.cs">
+    <Compile Include="Dang_nhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Đăng nhập.Designer.cs">
-      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    <Compile Include="Dang_nhap.Designer.cs">
+      <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Đăng ký.cs">
+    <Compile Include="Dang_ky.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Đăng ký.Designer.cs">
-      <DependentUpon>Đăng ký.cs</DependentUpon>
+    <Compile Include="Dang_ky.Designer.cs">
+      <DependentUpon>Dang_ky.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Cập nhật sao lưu.resx">
-      <DependentUpon>Cập nhật sao lưu.cs</DependentUpon>
+    <EmbeddedResource Include="Cap_nhat_sao_luu.resx">
+      <DependentUpon>Cap_nhat_sao_luu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Danh sách đơn hàng.resx">
-      <DependentUpon>Danh sách đơn hàng.cs</DependentUpon>
+    <EmbeddedResource Include="Danh_sach_don_hang.resx">
+      <DependentUpon>Danh_sach_don_hang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quản lý kho hàng.resx">
-      <DependentUpon>Quản lý kho hàng.cs</DependentUpon>
+    <EmbeddedResource Include="Quan_ly_kho_hang.resx">
+      <DependentUpon>Quan_ly_kho_hang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quản lý khách hàng.resx">
-      <DependentUpon>Quản lý khách hàng.cs</DependentUpon>
+    <EmbeddedResource Include="Quan_ly_khach_hang.resx">
+      <DependentUpon>Quan_ly_khach_hang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quản lý nhân viên.resx">
-      <DependentUpon>Quản lý nhân viên.cs</DependentUpon>
+    <EmbeddedResource Include="Quan_ly_nhan_vien.resx">
+      <DependentUpon>Quan_ly_nhan_vien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tạo đơn hàng.resx">
-      <DependentUpon>Tạo đơn hàng.cs</DependentUpon>
+    <EmbeddedResource Include="Tao_don_hang.resx">
+      <DependentUpon>Tao_don_hang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Trang chủ.resx">
-      <DependentUpon>Trang chủ.cs</DependentUpon>
+    <EmbeddedResource Include="Trang_chu.resx">
+      <DependentUpon>Trang_chu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Đăng ký.resx">
-      <DependentUpon>Đăng ký.cs</DependentUpon>
+    <EmbeddedResource Include="Dang_ky.resx">
+      <DependentUpon>Dang_ky.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Đăng nhập.resx">
-      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    <EmbeddedResource Include="Dang_nhap.resx">
+      <DependentUpon>Dang_nhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
