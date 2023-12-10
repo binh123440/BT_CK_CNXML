@@ -17,6 +17,7 @@ namespace test1
         public Form1()
         {
             InitializeComponent();
+            tbMATKHAU.PasswordChar = '*';
         }
 
         private void btDANGNHAP_Click(object sender, EventArgs e)
