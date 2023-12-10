@@ -58,6 +58,8 @@
     <Compile Include="Danh_sach_don_hang.Designer.cs">
       <DependentUpon>Danh_sach_don_hang.cs</DependentUpon>
     </Compile>
+    <Compile Include="MODELS\model_DANGNHAP.cs" />
+    <Compile Include="MODELS\model_XMLFile.cs" />
     <Compile Include="Quan_ly_kho_hang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +152,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML\ChiTietDonHangs.xml" />
+    <Content Include="XML\DienThoais.xml" />
+    <Content Include="XML\DonHangs.xml" />
+    <Content Include="XML\KhachHangs.xml" />
+    <Content Include="XML\NhanViens.xml" />
+    <Content Include="XML\TaiKhoans.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

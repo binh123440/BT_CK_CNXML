@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NhanViens>
+	<NhanVien>
+		<MaNV>NV01</MaNV>
+		<TenNV>Nguyễn Nam Hưng</TenNV>
+		<KPI>20</KPI>
+		<SDT>0905358455</SDT>
+		<NamSinh>1999</NamSinh>
+	</NhanVien>
+	<NhanVien>
+		<MaNV>NV02</MaNV>
+		<TenNV>Lê Minh Thành</TenNV>
+		<KPI>15</KPI>
+		<SDT>0937736877</SDT>
+		<NamSinh>1998</NamSinh>
+	</NhanVien>
+	<NhanVien>
+		<MaNV>NV03</MaNV>
+		<TenNV>Phan Minh Hùng</TenNV>
+		<KPI>16</KPI>
+		<SDT>0905862358</SDT>
+		<NamSinh>2001</NamSinh>
+	</NhanVien>
+	<NhanVien>
+		<MaNV>NV04</MaNV>
+		<TenNV>Nguyễn Khánh Sơn</TenNV>
+		<KPI>22</KPI>
+		<SDT>0337534345</SDT>
+		<NamSinh>1999</NamSinh>
+	</NhanVien>
+</NhanViens>
