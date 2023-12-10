@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TaiKhoans>
+	<TaiKhoan>
+		<TenTK>hung_pro</TenTK>
+		<MatKhau>Abc123!@#</MatKhau>
+		<MaNV>NV01</MaNV>
+	</TaiKhoan>
+	<TaiKhoan>
+		<TenTK>lethanh</TenTK>
+		<MatKhau>helloWorld8</MatKhau>
+		<MaNV>NV02</MaNV>
+	</TaiKhoan>
+	<TaiKhoan>
+		<TenTK>hung_phan</TenTK>
+		<MatKhau>noHope@01</MatKhau>
+		<MaNV>NV03</MaNV>
+	</TaiKhoan>
+	<TaiKhoan>
+		<TenTK>kson</TenTK>
+		<MatKhau>Qn92promax</MatKhau>
+		<MaNV>NV04</MaNV>
+	</TaiKhoan>
+</TaiKhoans>

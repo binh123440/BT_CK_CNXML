@@ -35,7 +35,7 @@ namespace test1
             this.label3 = new System.Windows.Forms.Label();
             this.tbMATKHAU = new System.Windows.Forms.TextBox();
             this.btDANGNHAP = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblDANGKY = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -97,18 +97,18 @@ namespace test1
             this.btDANGNHAP.TabIndex = 5;
             this.btDANGNHAP.Text = "ĐĂNG NHẬP";
             this.btDANGNHAP.UseVisualStyleBackColor = false;
+            this.btDANGNHAP.Click += new System.EventHandler(this.btDANGNHAP_Click);
             // 
-            // label4
+            // lblDANGKY
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label4.Location = new System.Drawing.Point(360, 376);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 17);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Đăng ký ở đây";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.lblDANGKY.AutoSize = true;
+            this.lblDANGKY.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblDANGKY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lblDANGKY.Location = new System.Drawing.Point(360, 376);
+            this.lblDANGKY.Name = "lblDANGKY";
+            this.lblDANGKY.Size = new System.Drawing.Size(99, 17);
+            this.lblDANGKY.TabIndex = 6;
+            this.lblDANGKY.Text = "Đăng ký ở đây";
             // 
             // label5
             // 
@@ -127,7 +127,7 @@ namespace test1
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(641, 425);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblDANGKY);
             this.Controls.Add(this.btDANGNHAP);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbMATKHAU);
@@ -149,7 +149,7 @@ namespace test1
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tbMATKHAU;
         private System.Windows.Forms.Button btDANGNHAP;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblDANGKY;
         private System.Windows.Forms.Label label5;
     }
 }
