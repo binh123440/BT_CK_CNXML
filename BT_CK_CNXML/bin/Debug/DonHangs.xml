@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <DonHangs>
   <DonHang>
     <MaDH>DH01</MaDH>
@@ -47,11 +47,5 @@
     <NgayDH>2023-10-31T00:00:00+07:00</NgayDH>
     <MaKH>KH08</MaKH>
     <MaNV>NV04</MaNV>
-  </DonHang>
-  <DonHang>
-    <MaDH>DH09</MaDH>
-    <NgayDH>2023-12-13T00:00:00+07:00</NgayDH>
-    <MaKH>KH01</MaKH>
-    <MaNV>NV01</MaNV>
   </DonHang>
 </DonHangs>

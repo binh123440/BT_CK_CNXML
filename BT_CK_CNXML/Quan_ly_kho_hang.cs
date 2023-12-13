@@ -29,7 +29,7 @@ namespace test1
         {
             // Load XML file
             XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            xmlDoc.Load("DienThoais.xml");
 
             // Iterate through XML nodes and populate DataGridView
             foreach (XmlNode node in xmlDoc.SelectNodes("//DienThoai"))
@@ -158,9 +158,9 @@ namespace test1
                 new XElement("Anh", fileName)
             );
 
-            XDocument xdoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            XDocument xdoc = XDocument.Load("DienThoais.xml");
             xdoc.Element("DienThoais").Add(newDienThoai);
-            xdoc.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            xdoc.Save("DienThoais.xml");
 
             // Clear data in textboxes and picture box
             ClearData();
@@ -194,7 +194,7 @@ namespace test1
                 dataGridView_sp_kho.Rows[rowIndex].SetValues(maSp, tenSp, moTa, soLuong, donGia, img);
 
                 // Update the corresponding <DienThoai> element in the XML file
-                XDocument xdoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+                XDocument xdoc = XDocument.Load("DienThoais.xml");
 
                 // Find the <DienThoai> element with the matching MaDT
                 XElement dienThoaiElement = xdoc.Descendants("DienThoai")
@@ -208,7 +208,7 @@ namespace test1
                 dienThoaiElement?.SetElementValue("Anh", fileName);
 
                 // Save the changes to the XML file
-                xdoc.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+                xdoc.Save("DienThoais.xml");
 
                 // Clear data in textboxes and picture box
                 ClearData();
@@ -230,7 +230,7 @@ namespace test1
                 dataGridView_sp_kho.Rows.Remove(selectedRow);
 
                 // Remove the corresponding <DienThoai> element from the XML file
-                XDocument xdoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+                XDocument xdoc = XDocument.Load("DienThoais.xml");
 
                 // Find the <DienThoai> element with the matching MaDT
                 XElement dienThoaiElement = xdoc.Descendants("DienThoai")
@@ -240,7 +240,7 @@ namespace test1
                 dienThoaiElement?.Remove();
 
                 // Save the changes to the XML file
-                xdoc.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+                xdoc.Save("DienThoais.xml");
 
                 // Clear data in textboxes and picture box
                 ClearData();

@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ChiTietDonHangs>
   <ChiTietDonHang>
     <MaDH>DH01</MaDH>
@@ -48,11 +48,6 @@
   <ChiTietDonHang>
     <MaDH>DH08</MaDH>
     <MaDT>DT03</MaDT>
-    <SoLuong>1</SoLuong>
-  </ChiTietDonHang>
-  <ChiTietDonHang>
-    <MaDH>DH09</MaDH>
-    <MaDT>DT02</MaDT>
     <SoLuong>1</SoLuong>
   </ChiTietDonHang>
 </ChiTietDonHangs>

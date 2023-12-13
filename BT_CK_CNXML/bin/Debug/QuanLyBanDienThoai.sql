@@ -1,7 +1,7 @@
-﻿create database dbQuanLyBanDienThoai
+﻿create database dbQuanLyBanDienThoai_2
 go
 
-use dbQuanLyBanDienThoai 
+use dbQuanLyBanDienThoai_2 
 go
 
 create table DienThoai

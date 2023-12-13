@@ -30,7 +30,7 @@ namespace test1.MODELS
                 DataSet ds = new DataSet();
                 da.Fill(ds, XMLName);
                 ds.DataSetName = XMLName + "s";
-                ds.WriteXml(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\" + XMLName + "s" + ".xml");
+                ds.WriteXml(XMLName + "s" + ".xml");
             }
             catch (Exception e)
             {

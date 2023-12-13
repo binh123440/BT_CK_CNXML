@@ -43,7 +43,7 @@ namespace test1.MODELS
         {
             if (XMLFileName.Equals("NhanVien"))
             {
-                XDocument XDoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\" + XMLFileName + "s.xml");
+                XDocument XDoc = XDocument.Load(XMLFileName + "s.xml");
                 conn.Open();
                 SqlCommand command;
                 // Tạo chuỗi câu lệnh
@@ -76,7 +76,7 @@ namespace test1.MODELS
             }
             else if (XMLFileName.Equals("KhachHang"))
             {
-                XDocument XDoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\" + XMLFileName + "s.xml");
+                XDocument XDoc = XDocument.Load(XMLFileName + "s.xml");
                 conn.Open();
                 SqlCommand command;
                 // Tạo chuỗi câu lệnh
@@ -108,7 +108,7 @@ namespace test1.MODELS
             }
             else if (XMLFileName.Equals("DonHang"))
             {
-                XDocument XDoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\" + XMLFileName + "s.xml");
+                XDocument XDoc = XDocument.Load(XMLFileName + "s.xml");
                 conn.Open();
                 SqlCommand command;
                 // Tạo chuỗi câu lệnh
@@ -139,7 +139,7 @@ namespace test1.MODELS
             }
             else
             {
-                XDocument XDoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\" + XMLFileName + "s.xml");
+                XDocument XDoc = XDocument.Load(XMLFileName + "s.xml");
                 conn.Open();
                 SqlCommand command;
                 // Tạo chuỗi câu lệnh

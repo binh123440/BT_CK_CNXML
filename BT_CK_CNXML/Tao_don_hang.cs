@@ -28,7 +28,7 @@ namespace test1
         {
             // Load XML file
             XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            xmlDoc.Load("DienThoais.xml");
 
             // DataGridView
             foreach (XmlNode node in xmlDoc.SelectNodes("//DienThoai"))
@@ -55,8 +55,8 @@ namespace test1
         private void LoadDataToComboBox()
         {
             // Load XML file
-            XDocument xdocKH = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\KhachHangs.xml");
-            XDocument xdocNV = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\NhanViens.xml");
+            XDocument xdocKH = XDocument.Load("KhachHangs.xml");
+            XDocument xdocNV = XDocument.Load("NhanViens.xml");
 
             // Get all MaKH elements
             var maKHList = xdocKH.Descendants("MaKH").Select(maKH => maKH.Value).ToList();
@@ -81,7 +81,7 @@ namespace test1
                 string ma_dien_thoai = selectedRow.Cells["donhang_masp_khohang"].Value.ToString();
 
                 // Update the corresponding <DienThoai> element in the XML file
-                XDocument xdoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+                XDocument xdoc = XDocument.Load("DienThoais.xml");
 
                 // Find the <DienThoai> element with the matching MaDT
                 XElement dienThoaiElement = xdoc.Descendants("DienThoai")
@@ -168,7 +168,7 @@ namespace test1
         private void UpdateSoLuongConXML(int check, string msp, int amount)
         {
             // Update the corresponding <DienThoai> element in the XML file
-            XDocument xdoc = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            XDocument xdoc = XDocument.Load("DienThoais.xml");
 
             // Find the <DienThoai> element with the matching MaDT
             XElement dienThoaiElement = xdoc.Descendants("DienThoai")
@@ -187,7 +187,7 @@ namespace test1
             dienThoaiElement?.SetElementValue("SoLuong", soluongcon);
 
             // Save the changes to the XML file
-            xdoc.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DienThoais.xml");
+            xdoc.Save("DienThoais.xml");
         }
 
         // xoa san pham trong gio hang
@@ -254,12 +254,12 @@ namespace test1
                 new XElement("MaNV", manv)
             );
 
-            XDocument xdocDH = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DonHangs.xml");
+            XDocument xdocDH = XDocument.Load("DonHangs.xml");
             xdocDH.Element("DonHangs").Add(newDonHang);
-            xdocDH.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\DonHangs.xml");
+            xdocDH.Save("DonHangs.xml");
 
             // Insert to ChiTietDonHangs.xml
-            XDocument xdocCTDH = XDocument.Load(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\ChiTietDonHangs.xml");
+            XDocument xdocCTDH = XDocument.Load("ChiTietDonHangs.xml");
             foreach (DataGridViewRow row in dataGridView_giohang_in_donhang.Rows)
             {
                 if (!row.IsNewRow)
@@ -296,7 +296,7 @@ namespace test1
                 }
             }
 
-            xdocCTDH.Save(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\ChiTietDonHangs.xml");
+            xdocCTDH.Save("ChiTietDonHangs.xml");
 
             // clear textbox and datagridview
             tb_madh_donhang.Text = String.Empty;
