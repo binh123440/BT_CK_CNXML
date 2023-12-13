@@ -29,71 +29,73 @@ namespace test1
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_quan_ly_kho_hang = new System.Windows.Forms.Button();
+            this.btn_tao_don_hang = new System.Windows.Forms.Button();
+            this.btn_quan_ly_khach_hang = new System.Windows.Forms.Button();
+            this.btn_cap_nhat_sao_luu = new System.Windows.Forms.Button();
+            this.btn_danh_sach_don_hang = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_quan_ly_nhan_vien = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_quan_ly_kho_hang
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(47, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Quản lý kho hàng";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_kho_hang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_quan_ly_kho_hang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_quan_ly_kho_hang.Location = new System.Drawing.Point(47, 105);
+            this.btn_quan_ly_kho_hang.Name = "btn_quan_ly_kho_hang";
+            this.btn_quan_ly_kho_hang.Size = new System.Drawing.Size(162, 60);
+            this.btn_quan_ly_kho_hang.TabIndex = 0;
+            this.btn_quan_ly_kho_hang.Text = "Quản lý kho hàng";
+            this.btn_quan_ly_kho_hang.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn_tao_don_hang
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(47, 421);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 60);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Thanh toán";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_tao_don_hang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_tao_don_hang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tao_don_hang.Location = new System.Drawing.Point(47, 421);
+            this.btn_tao_don_hang.Name = "btn_tao_don_hang";
+            this.btn_tao_don_hang.Size = new System.Drawing.Size(162, 60);
+            this.btn_tao_don_hang.TabIndex = 1;
+            this.btn_tao_don_hang.Text = "Thanh toán";
+            this.btn_tao_don_hang.UseVisualStyleBackColor = false;
+            this.btn_tao_don_hang.Click += new System.EventHandler(this.btn_tao_don_hang_Click);
             // 
-            // button3
+            // btn_quan_ly_khach_hang
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(47, 358);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 60);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Quản lý khách hàng";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_khach_hang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_quan_ly_khach_hang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_quan_ly_khach_hang.Location = new System.Drawing.Point(47, 358);
+            this.btn_quan_ly_khach_hang.Name = "btn_quan_ly_khach_hang";
+            this.btn_quan_ly_khach_hang.Size = new System.Drawing.Size(162, 60);
+            this.btn_quan_ly_khach_hang.TabIndex = 2;
+            this.btn_quan_ly_khach_hang.Text = "Quản lý khách hàng";
+            this.btn_quan_ly_khach_hang.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_cap_nhat_sao_luu
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(47, 168);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(162, 60);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Cập nhật - Sao lưu dữ liệu";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_cap_nhat_sao_luu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_cap_nhat_sao_luu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cap_nhat_sao_luu.Location = new System.Drawing.Point(47, 168);
+            this.btn_cap_nhat_sao_luu.Name = "btn_cap_nhat_sao_luu";
+            this.btn_cap_nhat_sao_luu.Size = new System.Drawing.Size(162, 60);
+            this.btn_cap_nhat_sao_luu.TabIndex = 3;
+            this.btn_cap_nhat_sao_luu.Text = "Cập nhật - Sao lưu dữ liệu";
+            this.btn_cap_nhat_sao_luu.UseVisualStyleBackColor = false;
+            this.btn_cap_nhat_sao_luu.Click += new System.EventHandler(this.btn_cap_nhat_sao_luu_Click);
             // 
-            // button5
+            // btn_danh_sach_don_hang
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(47, 232);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(162, 60);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Lịch sử thanh toán";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_danh_sach_don_hang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_danh_sach_don_hang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_danh_sach_don_hang.Location = new System.Drawing.Point(47, 232);
+            this.btn_danh_sach_don_hang.Name = "btn_danh_sach_don_hang";
+            this.btn_danh_sach_don_hang.Size = new System.Drawing.Size(162, 60);
+            this.btn_danh_sach_don_hang.TabIndex = 4;
+            this.btn_danh_sach_don_hang.Text = "Lịch sử thanh toán";
+            this.btn_danh_sach_don_hang.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -109,16 +111,16 @@ namespace test1
             this.label1.Text = "TRANG CHỦ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button6
+            // btn_quan_ly_nhan_vien
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(47, 294);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(162, 60);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Quản lý nhân viên";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_nhan_vien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_quan_ly_nhan_vien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_quan_ly_nhan_vien.Location = new System.Drawing.Point(47, 294);
+            this.btn_quan_ly_nhan_vien.Name = "btn_quan_ly_nhan_vien";
+            this.btn_quan_ly_nhan_vien.Size = new System.Drawing.Size(162, 60);
+            this.btn_quan_ly_nhan_vien.TabIndex = 6;
+            this.btn_quan_ly_nhan_vien.Text = "Quản lý nhân viên";
+            this.btn_quan_ly_nhan_vien.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -135,13 +137,13 @@ namespace test1
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(847, 532);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btn_quan_ly_nhan_vien);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_danh_sach_don_hang);
+            this.Controls.Add(this.btn_cap_nhat_sao_luu);
+            this.Controls.Add(this.btn_quan_ly_khach_hang);
+            this.Controls.Add(this.btn_tao_don_hang);
+            this.Controls.Add(this.btn_quan_ly_kho_hang);
             this.Name = "Trang_chủ";
             this.Text = "Trang_chủ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -152,13 +154,13 @@ namespace test1
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_quan_ly_kho_hang;
+        private System.Windows.Forms.Button btn_tao_don_hang;
+        private System.Windows.Forms.Button btn_quan_ly_khach_hang;
+        private System.Windows.Forms.Button btn_cap_nhat_sao_luu;
+        private System.Windows.Forms.Button btn_danh_sach_don_hang;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_quan_ly_nhan_vien;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

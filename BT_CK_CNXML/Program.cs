@@ -16,7 +16,7 @@ namespace test1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Thanh_toán());
+            Application.Run(new Trang_chủ());
         }
     }
 }

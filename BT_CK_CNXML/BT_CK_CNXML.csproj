@@ -60,6 +60,8 @@
     </Compile>
     <Compile Include="MODELS\model_DANGNHAP.cs" />
     <Compile Include="MODELS\model_XMLFile.cs" />
+    <Compile Include="MODELS\SQL2XML.cs" />
+    <Compile Include="MODELS\XML2SQL.cs" />
     <Compile Include="Quan_ly_kho_hang.cs">
       <SubType>Form</SubType>
     </Compile>

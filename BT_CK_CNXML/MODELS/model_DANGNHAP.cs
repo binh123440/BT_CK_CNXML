@@ -14,7 +14,7 @@ namespace test1.MODELS
 
         public String Login(String userName, string password)
         {
-            XmlDocument XDoc = XmlFile.getXmlDocument(@"D:\UTE_CODE\XML\CUOIKY_QLBanDienThoai\BT_CK_CNXML\BT_CK_CNXML\XML\TaiKhoans.xml");
+            XmlDocument XDoc = XmlFile.getXmlDocument(@"D:\UTE_CODE\XML\CuoiKyXML_BanDienThoai\BT_CK_CNXML\XML\TaiKhoans.xml");
             XmlNodeList nodeList = XDoc.SelectNodes("/TaiKhoans/TaiKhoan[TenTK = '" + userName + "']");
 
             if (nodeList.Count != 0)
