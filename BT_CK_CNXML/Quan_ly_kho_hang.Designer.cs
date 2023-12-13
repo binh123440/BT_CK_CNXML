@@ -29,77 +29,86 @@ namespace test1
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView_sp_kho = new System.Windows.Forms.DataGridView();
+            this.kho_masp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kho_tensp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kho_mota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kho_sluong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kho_dongia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kho_anhsp = new System.Windows.Forms.DataGridViewImageColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.picBox_anh_sp_kho = new System.Windows.Forms.PictureBox();
+            this.btn_add_img_kho = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tb_dongia_sp_kho = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb_soluong_sp_kho = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_mota_sp_kho = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_ten_sp_kho = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_ma_sp_kho = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btn_them_sp_kho = new System.Windows.Forms.Button();
+            this.btn_sua_sp_kho = new System.Windows.Forms.Button();
+            this.btn_xoa_sp_kho = new System.Windows.Forms.Button();
+            this.btn_reset_sp_kho = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_sp_kho)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_anh_sp_kho)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridView_sp_kho
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 270);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1254, 371);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView_sp_kho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_sp_kho.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kho_masp,
+            this.kho_tensp,
+            this.kho_mota,
+            this.kho_sluong,
+            this.kho_dongia,
+            this.kho_anhsp});
+            this.dataGridView_sp_kho.Location = new System.Drawing.Point(12, 312);
+            this.dataGridView_sp_kho.Name = "dataGridView_sp_kho";
+            this.dataGridView_sp_kho.RowTemplate.Height = 200;
+            this.dataGridView_sp_kho.Size = new System.Drawing.Size(1254, 345);
+            this.dataGridView_sp_kho.TabIndex = 0;
             // 
-            // Column1
+            // kho_masp
             // 
-            this.Column1.HeaderText = "Mã SP";
-            this.Column1.Name = "Column1";
+            this.kho_masp.HeaderText = "Mã SP";
+            this.kho_masp.Name = "kho_masp";
             // 
-            // Column2
+            // kho_tensp
             // 
-            this.Column2.HeaderText = "Tên Sản phẩm";
-            this.Column2.Name = "Column2";
+            this.kho_tensp.HeaderText = "Tên Sản phẩm";
+            this.kho_tensp.Name = "kho_tensp";
             // 
-            // Column3
+            // kho_mota
             // 
-            this.Column3.HeaderText = "Mô tả";
-            this.Column3.Name = "Column3";
+            this.kho_mota.HeaderText = "Mô tả";
+            this.kho_mota.Name = "kho_mota";
             // 
-            // Column4
+            // kho_sluong
             // 
-            this.Column4.HeaderText = "Số lượng";
-            this.Column4.Name = "Column4";
+            this.kho_sluong.HeaderText = "Số lượng";
+            this.kho_sluong.Name = "kho_sluong";
             // 
-            // Column5
+            // kho_dongia
             // 
-            this.Column5.HeaderText = "Đơn giá";
-            this.Column5.Name = "Column5";
+            this.kho_dongia.HeaderText = "Đơn giá";
+            this.kho_dongia.Name = "kho_dongia";
             // 
-            // Column6
+            // kho_anhsp
             // 
-            this.Column6.HeaderText = "Ảnh";
-            this.Column6.Name = "Column6";
+            this.kho_anhsp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.kho_anhsp.HeaderText = "Ảnh";
+            this.kho_anhsp.Name = "kho_anhsp";
+            this.kho_anhsp.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.kho_anhsp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.kho_anhsp.Width = 51;
             // 
             // label1
             // 
@@ -116,18 +125,18 @@ namespace test1
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.picBox_anh_sp_kho);
+            this.groupBox1.Controls.Add(this.btn_add_img_kho);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.tb_dongia_sp_kho);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.tb_soluong_sp_kho);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tb_mota_sp_kho);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tb_ten_sp_kho);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tb_ma_sp_kho);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(39, 77);
             this.groupBox1.Name = "groupBox1";
@@ -136,23 +145,24 @@ namespace test1
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sản phẩm";
             // 
-            // pictureBox1
+            // picBox_anh_sp_kho
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(989, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 138);
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
+            this.picBox_anh_sp_kho.Location = new System.Drawing.Point(989, 22);
+            this.picBox_anh_sp_kho.Name = "picBox_anh_sp_kho";
+            this.picBox_anh_sp_kho.Size = new System.Drawing.Size(145, 138);
+            this.picBox_anh_sp_kho.TabIndex = 27;
+            this.picBox_anh_sp_kho.TabStop = false;
             // 
-            // button1
+            // btn_add_img_kho
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.Location = new System.Drawing.Point(766, 122);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 23);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_add_img_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn_add_img_kho.Location = new System.Drawing.Point(766, 122);
+            this.btn_add_img_kho.Name = "btn_add_img_kho";
+            this.btn_add_img_kho.Size = new System.Drawing.Size(91, 23);
+            this.btn_add_img_kho.TabIndex = 26;
+            this.btn_add_img_kho.Text = "Thêm ảnh";
+            this.btn_add_img_kho.UseVisualStyleBackColor = true;
+            this.btn_add_img_kho.Click += new System.EventHandler(this.btn_add_img_kho_Click);
             // 
             // label7
             // 
@@ -164,13 +174,13 @@ namespace test1
             this.label7.TabIndex = 25;
             this.label7.Text = "Ảnh";
             // 
-            // textBox5
+            // tb_dongia_sp_kho
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox5.Location = new System.Drawing.Point(489, 125);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 23);
-            this.textBox5.TabIndex = 24;
+            this.tb_dongia_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_dongia_sp_kho.Location = new System.Drawing.Point(489, 125);
+            this.tb_dongia_sp_kho.Name = "tb_dongia_sp_kho";
+            this.tb_dongia_sp_kho.Size = new System.Drawing.Size(143, 23);
+            this.tb_dongia_sp_kho.TabIndex = 24;
             // 
             // label6
             // 
@@ -182,13 +192,13 @@ namespace test1
             this.label6.TabIndex = 23;
             this.label6.Text = "Đơn giá";
             // 
-            // textBox4
+            // tb_soluong_sp_kho
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox4.Location = new System.Drawing.Point(165, 125);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(144, 23);
-            this.textBox4.TabIndex = 22;
+            this.tb_soluong_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_soluong_sp_kho.Location = new System.Drawing.Point(165, 125);
+            this.tb_soluong_sp_kho.Name = "tb_soluong_sp_kho";
+            this.tb_soluong_sp_kho.Size = new System.Drawing.Size(144, 23);
+            this.tb_soluong_sp_kho.TabIndex = 22;
             // 
             // label5
             // 
@@ -200,13 +210,13 @@ namespace test1
             this.label5.TabIndex = 21;
             this.label5.Text = "Số lượng";
             // 
-            // textBox3
+            // tb_mota_sp_kho
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox3.Location = new System.Drawing.Point(747, 35);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(144, 23);
-            this.textBox3.TabIndex = 20;
+            this.tb_mota_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_mota_sp_kho.Location = new System.Drawing.Point(747, 35);
+            this.tb_mota_sp_kho.Name = "tb_mota_sp_kho";
+            this.tb_mota_sp_kho.Size = new System.Drawing.Size(144, 23);
+            this.tb_mota_sp_kho.TabIndex = 20;
             // 
             // label4
             // 
@@ -218,13 +228,13 @@ namespace test1
             this.label4.TabIndex = 19;
             this.label4.Text = "Mô tả";
             // 
-            // textBox2
+            // tb_ten_sp_kho
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox2.Location = new System.Drawing.Point(489, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(144, 23);
-            this.textBox2.TabIndex = 18;
+            this.tb_ten_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_ten_sp_kho.Location = new System.Drawing.Point(489, 35);
+            this.tb_ten_sp_kho.Name = "tb_ten_sp_kho";
+            this.tb_ten_sp_kho.Size = new System.Drawing.Size(144, 23);
+            this.tb_ten_sp_kho.TabIndex = 18;
             // 
             // label3
             // 
@@ -236,13 +246,13 @@ namespace test1
             this.label3.TabIndex = 17;
             this.label3.Text = "Tên sản phẩm";
             // 
-            // textBox1
+            // tb_ma_sp_kho
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox1.Location = new System.Drawing.Point(165, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 23);
-            this.textBox1.TabIndex = 16;
+            this.tb_ma_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_ma_sp_kho.Location = new System.Drawing.Point(165, 41);
+            this.tb_ma_sp_kho.Name = "tb_ma_sp_kho";
+            this.tb_ma_sp_kho.Size = new System.Drawing.Size(144, 23);
+            this.tb_ma_sp_kho.TabIndex = 16;
             // 
             // label2
             // 
@@ -254,21 +264,73 @@ namespace test1
             this.label2.TabIndex = 15;
             this.label2.Text = "Mã SP";
             // 
+            // btn_them_sp_kho
+            // 
+            this.btn_them_sp_kho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn_them_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_them_sp_kho.Location = new System.Drawing.Point(39, 280);
+            this.btn_them_sp_kho.Name = "btn_them_sp_kho";
+            this.btn_them_sp_kho.Size = new System.Drawing.Size(75, 23);
+            this.btn_them_sp_kho.TabIndex = 16;
+            this.btn_them_sp_kho.Text = "Thêm";
+            this.btn_them_sp_kho.UseVisualStyleBackColor = false;
+            this.btn_them_sp_kho.Click += new System.EventHandler(this.btn_them_sp_kho_Click);
+            // 
+            // btn_sua_sp_kho
+            // 
+            this.btn_sua_sp_kho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_sua_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sua_sp_kho.Location = new System.Drawing.Point(178, 280);
+            this.btn_sua_sp_kho.Name = "btn_sua_sp_kho";
+            this.btn_sua_sp_kho.Size = new System.Drawing.Size(75, 23);
+            this.btn_sua_sp_kho.TabIndex = 17;
+            this.btn_sua_sp_kho.Text = "Sửa";
+            this.btn_sua_sp_kho.UseVisualStyleBackColor = false;
+            this.btn_sua_sp_kho.Click += new System.EventHandler(this.btn_sua_sp_kho_Click);
+            // 
+            // btn_xoa_sp_kho
+            // 
+            this.btn_xoa_sp_kho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btn_xoa_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_xoa_sp_kho.Location = new System.Drawing.Point(317, 280);
+            this.btn_xoa_sp_kho.Name = "btn_xoa_sp_kho";
+            this.btn_xoa_sp_kho.Size = new System.Drawing.Size(75, 23);
+            this.btn_xoa_sp_kho.TabIndex = 18;
+            this.btn_xoa_sp_kho.Text = "Xoá";
+            this.btn_xoa_sp_kho.UseVisualStyleBackColor = false;
+            this.btn_xoa_sp_kho.Click += new System.EventHandler(this.btn_xoa_sp_kho_Click);
+            // 
+            // btn_reset_sp_kho
+            // 
+            this.btn_reset_sp_kho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn_reset_sp_kho.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reset_sp_kho.Location = new System.Drawing.Point(460, 280);
+            this.btn_reset_sp_kho.Name = "btn_reset_sp_kho";
+            this.btn_reset_sp_kho.Size = new System.Drawing.Size(75, 23);
+            this.btn_reset_sp_kho.TabIndex = 19;
+            this.btn_reset_sp_kho.Text = "Reset";
+            this.btn_reset_sp_kho.UseVisualStyleBackColor = false;
+            this.btn_reset_sp_kho.Click += new System.EventHandler(this.btn_reset_sp_kho_Click);
+            // 
             // Quản_lý_kho_hàng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1278, 669);
+            this.Controls.Add(this.btn_reset_sp_kho);
+            this.Controls.Add(this.btn_xoa_sp_kho);
+            this.Controls.Add(this.btn_sua_sp_kho);
+            this.Controls.Add(this.btn_them_sp_kho);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView_sp_kho);
             this.Name = "Quản_lý_kho_hàng";
             this.Text = "Quản_lý_kho_hàng";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_sp_kho)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_anh_sp_kho)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,27 +338,31 @@ namespace test1
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView_sp_kho;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox picBox_anh_sp_kho;
+        private System.Windows.Forms.Button btn_add_img_kho;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tb_dongia_sp_kho;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb_soluong_sp_kho;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_mota_sp_kho;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_ten_sp_kho;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_ma_sp_kho;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kho_masp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kho_tensp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kho_mota;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kho_sluong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kho_dongia;
+        private System.Windows.Forms.DataGridViewImageColumn kho_anhsp;
+        private System.Windows.Forms.Button btn_them_sp_kho;
+        private System.Windows.Forms.Button btn_sua_sp_kho;
+        private System.Windows.Forms.Button btn_xoa_sp_kho;
+        private System.Windows.Forms.Button btn_reset_sp_kho;
     }
 }

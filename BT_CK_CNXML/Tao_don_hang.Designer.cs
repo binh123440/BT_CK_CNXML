@@ -29,100 +29,92 @@ namespace test1
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView_giohang_in_donhang = new System.Windows.Forms.DataGridView();
+            this.donhang_tensp_giohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_masp_giohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_soluong_giohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_dongia_giohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_tongtien_giohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_donhang_soluongdat = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btn_donhang_them = new System.Windows.Forms.Button();
+            this.picBox_donhang_anhsp = new System.Windows.Forms.PictureBox();
+            this.dataGridView_khohang_in_donhang = new System.Windows.Forms.DataGridView();
+            this.donhang_masp_khohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_tensp_khohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_chitiet_khohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_soluongcon_khohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donhang_dongia_khohang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_xacnhan_giohang = new System.Windows.Forms.Button();
+            this.cb_manv_donhang = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
+            this.btn_xoa_giohang = new System.Windows.Forms.Button();
+            this.lb_tongtien_giohang = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_makh_donhang = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tb_madh_donhang = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_giohang_in_donhang)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_donhang_anhsp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_khohang_in_donhang)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView2
+            // dataGridView_giohang_in_donhang
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column3,
-            this.Column2,
-            this.Column4,
-            this.Column5,
-            this.Column6});
-            this.dataGridView2.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(603, 261);
-            this.dataGridView2.TabIndex = 5;
+            this.dataGridView_giohang_in_donhang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_giohang_in_donhang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.donhang_tensp_giohang,
+            this.donhang_masp_giohang,
+            this.donhang_soluong_giohang,
+            this.donhang_dongia_giohang,
+            this.donhang_tongtien_giohang});
+            this.dataGridView_giohang_in_donhang.Location = new System.Drawing.Point(6, 19);
+            this.dataGridView_giohang_in_donhang.Name = "dataGridView_giohang_in_donhang";
+            this.dataGridView_giohang_in_donhang.Size = new System.Drawing.Size(603, 261);
+            this.dataGridView_giohang_in_donhang.TabIndex = 5;
             // 
-            // Column1
+            // donhang_tensp_giohang
             // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
+            this.donhang_tensp_giohang.HeaderText = "Tên sản phẩm";
+            this.donhang_tensp_giohang.Name = "donhang_tensp_giohang";
             // 
-            // Column3
+            // donhang_masp_giohang
             // 
-            this.Column3.HeaderText = "Tên sản phẩm";
-            this.Column3.Name = "Column3";
+            this.donhang_masp_giohang.HeaderText = "Mã sản phẩm";
+            this.donhang_masp_giohang.Name = "donhang_masp_giohang";
+            this.donhang_masp_giohang.Width = 70;
             // 
-            // Column2
+            // donhang_soluong_giohang
             // 
-            this.Column2.HeaderText = "Mã sản phẩm";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 70;
+            this.donhang_soluong_giohang.HeaderText = "SL";
+            this.donhang_soluong_giohang.Name = "donhang_soluong_giohang";
+            this.donhang_soluong_giohang.Width = 70;
             // 
-            // Column4
+            // donhang_dongia_giohang
             // 
-            this.Column4.HeaderText = "SL";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 70;
+            this.donhang_dongia_giohang.HeaderText = "Đơn giá";
+            this.donhang_dongia_giohang.Name = "donhang_dongia_giohang";
+            this.donhang_dongia_giohang.Width = 70;
             // 
-            // Column5
+            // donhang_tongtien_giohang
             // 
-            this.Column5.HeaderText = "Đơn giá";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 70;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Tổng tiền";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 70;
+            this.donhang_tongtien_giohang.HeaderText = "Tổng tiền";
+            this.donhang_tongtien_giohang.Name = "donhang_tongtien_giohang";
+            this.donhang_tongtien_giohang.Width = 70;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tb_donhang_soluongdat);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.btn_donhang_them);
+            this.groupBox1.Controls.Add(this.picBox_donhang_anhsp);
+            this.groupBox1.Controls.Add(this.dataGridView_khohang_in_donhang);
             this.groupBox1.Location = new System.Drawing.Point(29, 88);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1160, 313);
@@ -130,64 +122,181 @@ namespace test1
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kho hàng";
             // 
-            // dataGridView1
+            // tb_donhang_soluongdat
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column8,
-            this.Column9,
-            this.Column10,
-            this.Column11,
-            this.Column12});
-            this.dataGridView1.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(603, 285);
-            this.dataGridView1.TabIndex = 5;
+            this.tb_donhang_soluongdat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_donhang_soluongdat.Location = new System.Drawing.Point(1028, 144);
+            this.tb_donhang_soluongdat.Name = "tb_donhang_soluongdat";
+            this.tb_donhang_soluongdat.Size = new System.Drawing.Size(121, 23);
+            this.tb_donhang_soluongdat.TabIndex = 39;
             // 
-            // Column8
+            // label4
             // 
-            this.Column8.HeaderText = "Mã sản phẩm";
-            this.Column8.Name = "Column8";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label4.Location = new System.Drawing.Point(961, 147);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 17);
+            this.label4.TabIndex = 38;
+            this.label4.Text = "Số lượng";
             // 
-            // Column9
+            // btn_donhang_them
             // 
-            this.Column9.HeaderText = "Tên sản phẩm";
-            this.Column9.Name = "Column9";
+            this.btn_donhang_them.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn_donhang_them.Location = new System.Drawing.Point(993, 211);
+            this.btn_donhang_them.Name = "btn_donhang_them";
+            this.btn_donhang_them.Size = new System.Drawing.Size(116, 53);
+            this.btn_donhang_them.TabIndex = 37;
+            this.btn_donhang_them.Text = "Thêm vào giỏ hàng";
+            this.btn_donhang_them.UseVisualStyleBackColor = true;
+            this.btn_donhang_them.Click += new System.EventHandler(this.btn_donhang_them_Click);
             // 
-            // Column10
+            // picBox_donhang_anhsp
             // 
-            this.Column10.HeaderText = "Chi tiết";
-            this.Column10.Name = "Column10";
+            this.picBox_donhang_anhsp.Location = new System.Drawing.Point(626, 19);
+            this.picBox_donhang_anhsp.Name = "picBox_donhang_anhsp";
+            this.picBox_donhang_anhsp.Size = new System.Drawing.Size(307, 285);
+            this.picBox_donhang_anhsp.TabIndex = 36;
+            this.picBox_donhang_anhsp.TabStop = false;
             // 
-            // Column11
+            // dataGridView_khohang_in_donhang
             // 
-            this.Column11.HeaderText = "SL còn";
-            this.Column11.Name = "Column11";
+            this.dataGridView_khohang_in_donhang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_khohang_in_donhang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.donhang_masp_khohang,
+            this.donhang_tensp_khohang,
+            this.donhang_chitiet_khohang,
+            this.donhang_soluongcon_khohang,
+            this.donhang_dongia_khohang});
+            this.dataGridView_khohang_in_donhang.Location = new System.Drawing.Point(6, 19);
+            this.dataGridView_khohang_in_donhang.Name = "dataGridView_khohang_in_donhang";
+            this.dataGridView_khohang_in_donhang.Size = new System.Drawing.Size(603, 285);
+            this.dataGridView_khohang_in_donhang.TabIndex = 5;
             // 
-            // Column12
+            // donhang_masp_khohang
             // 
-            this.Column12.HeaderText = "Đơn giá";
-            this.Column12.Name = "Column12";
+            this.donhang_masp_khohang.HeaderText = "Mã sản phẩm";
+            this.donhang_masp_khohang.Name = "donhang_masp_khohang";
+            // 
+            // donhang_tensp_khohang
+            // 
+            this.donhang_tensp_khohang.HeaderText = "Tên sản phẩm";
+            this.donhang_tensp_khohang.Name = "donhang_tensp_khohang";
+            // 
+            // donhang_chitiet_khohang
+            // 
+            this.donhang_chitiet_khohang.HeaderText = "Chi tiết";
+            this.donhang_chitiet_khohang.Name = "donhang_chitiet_khohang";
+            // 
+            // donhang_soluongcon_khohang
+            // 
+            this.donhang_soluongcon_khohang.HeaderText = "SL còn";
+            this.donhang_soluongcon_khohang.Name = "donhang_soluongcon_khohang";
+            // 
+            // donhang_dongia_khohang
+            // 
+            this.donhang_dongia_khohang.HeaderText = "Đơn giá";
+            this.donhang_dongia_khohang.Name = "donhang_dongia_khohang";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.tb_madh_donhang);
             this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.btn_xacnhan_giohang);
+            this.groupBox2.Controls.Add(this.cb_manv_donhang);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.btn_xoa_giohang);
+            this.groupBox2.Controls.Add(this.lb_tongtien_giohang);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.cb_makh_donhang);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.dataGridView2);
+            this.groupBox2.Controls.Add(this.dataGridView_giohang_in_donhang);
             this.groupBox2.Location = new System.Drawing.Point(29, 408);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1160, 290);
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Giỏ hàng";
+            // 
+            // btn_xacnhan_giohang
+            // 
+            this.btn_xacnhan_giohang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn_xacnhan_giohang.Location = new System.Drawing.Point(966, 217);
+            this.btn_xacnhan_giohang.Name = "btn_xacnhan_giohang";
+            this.btn_xacnhan_giohang.Size = new System.Drawing.Size(116, 49);
+            this.btn_xacnhan_giohang.TabIndex = 46;
+            this.btn_xacnhan_giohang.Text = "Xác nhận đơn hàng";
+            this.btn_xacnhan_giohang.UseVisualStyleBackColor = true;
+            this.btn_xacnhan_giohang.Click += new System.EventHandler(this.btn_xacnhan_giohang_Click);
+            // 
+            // cb_manv_donhang
+            // 
+            this.cb_manv_donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.cb_manv_donhang.FormattingEnabled = true;
+            this.cb_manv_donhang.Location = new System.Drawing.Point(784, 146);
+            this.cb_manv_donhang.Name = "cb_manv_donhang";
+            this.cb_manv_donhang.Size = new System.Drawing.Size(149, 24);
+            this.cb_manv_donhang.TabIndex = 44;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label7.Location = new System.Drawing.Point(651, 149);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(93, 17);
+            this.label7.TabIndex = 43;
+            this.label7.Text = "Mã nhân viên";
+            // 
+            // btn_xoa_giohang
+            // 
+            this.btn_xoa_giohang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn_xoa_giohang.Location = new System.Drawing.Point(966, 101);
+            this.btn_xoa_giohang.Name = "btn_xoa_giohang";
+            this.btn_xoa_giohang.Size = new System.Drawing.Size(116, 49);
+            this.btn_xoa_giohang.TabIndex = 42;
+            this.btn_xoa_giohang.Text = "Xóa khỏi giỏ hàng";
+            this.btn_xoa_giohang.UseVisualStyleBackColor = true;
+            this.btn_xoa_giohang.Click += new System.EventHandler(this.btn_xoa_giohang_Click);
+            // 
+            // lb_tongtien_giohang
+            // 
+            this.lb_tongtien_giohang.AutoSize = true;
+            this.lb_tongtien_giohang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lb_tongtien_giohang.Location = new System.Drawing.Point(829, 233);
+            this.lb_tongtien_giohang.Name = "lb_tongtien_giohang";
+            this.lb_tongtien_giohang.Size = new System.Drawing.Size(24, 17);
+            this.lb_tongtien_giohang.TabIndex = 41;
+            this.lb_tongtien_giohang.Text = "0đ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(651, 233);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 17);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "Tổng tiền:";
+            // 
+            // cb_makh_donhang
+            // 
+            this.cb_makh_donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.cb_makh_donhang.FormattingEnabled = true;
+            this.cb_makh_donhang.Location = new System.Drawing.Point(784, 97);
+            this.cb_makh_donhang.Name = "cb_makh_donhang";
+            this.cb_makh_donhang.Size = new System.Drawing.Size(149, 24);
+            this.cb_makh_donhang.TabIndex = 38;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(651, 100);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 17);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Mã khách hàng";
             // 
             // label1
             // 
@@ -202,137 +311,23 @@ namespace test1
             this.label1.TabIndex = 37;
             this.label1.Text = "ĐƠN HÀNG";
             // 
-            // textBox3
+            // tb_madh_donhang
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox3.Location = new System.Drawing.Point(1028, 144);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 23);
-            this.textBox3.TabIndex = 39;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(961, 147);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 17);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Số lượng";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.Location = new System.Drawing.Point(993, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 53);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "Thêm vào giỏ hàng";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(626, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(307, 285);
-            this.pictureBox1.TabIndex = 36;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button2.Location = new System.Drawing.Point(966, 217);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 49);
-            this.button2.TabIndex = 46;
-            this.button2.Text = "Xác nhận đơn hàng";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox2.Location = new System.Drawing.Point(784, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 23);
-            this.textBox2.TabIndex = 45;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(784, 134);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 44;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(651, 137);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 17);
-            this.label7.TabIndex = 43;
-            this.label7.Text = "Tên nhân viên bán";
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button3.Location = new System.Drawing.Point(966, 111);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(74, 39);
-            this.button3.TabIndex = 42;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = true;
+            this.tb_madh_donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tb_madh_donhang.Location = new System.Drawing.Point(784, 48);
+            this.tb_madh_donhang.Name = "tb_madh_donhang";
+            this.tb_madh_donhang.Size = new System.Drawing.Size(149, 23);
+            this.tb_madh_donhang.TabIndex = 48;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(829, 233);
+            this.label5.Location = new System.Drawing.Point(651, 51);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(24, 17);
-            this.label5.TabIndex = 41;
-            this.label5.Text = "0đ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(651, 233);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 17);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Tổng tiền:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(651, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 17);
-            this.label3.TabIndex = 39;
-            this.label3.Text = "Tên khách hàng";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(784, 29);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 38;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(651, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 17);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Mã khách hàng";
+            this.label5.Size = new System.Drawing.Size(91, 17);
+            this.label5.TabIndex = 47;
+            this.label5.Text = "Mã đơn hàng";
             // 
             // Thanh_toán
             // 
@@ -345,48 +340,47 @@ namespace test1
             this.Controls.Add(this.groupBox1);
             this.Name = "Thanh_toán";
             this.Text = "Thanh_toán";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_giohang_in_donhang)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_donhang_anhsp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_khohang_in_donhang)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridView_giohang_in_donhang;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridView dataGridView_khohang_in_donhang;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_donhang_soluongdat;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btn_donhang_them;
+        private System.Windows.Forms.PictureBox picBox_donhang_anhsp;
+        private System.Windows.Forms.Button btn_xacnhan_giohang;
+        private System.Windows.Forms.ComboBox cb_manv_donhang;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_xoa_giohang;
+        private System.Windows.Forms.Label lb_tongtien_giohang;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_makh_donhang;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_masp_khohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_tensp_khohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_chitiet_khohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_soluongcon_khohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_dongia_khohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_tensp_giohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_masp_giohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_soluong_giohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_dongia_giohang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donhang_tongtien_giohang;
+        private System.Windows.Forms.TextBox tb_madh_donhang;
+        private System.Windows.Forms.Label label5;
     }
 }
