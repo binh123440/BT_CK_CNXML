@@ -33,16 +33,13 @@ namespace test1
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxTenNV = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,17 +48,14 @@ namespace test1
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBoxMaDH = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBoxTenKH = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -87,6 +81,7 @@ namespace test1
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
+            this.Column10,
             this.Column7,
             this.Column13,
             this.Column6});
@@ -94,6 +89,8 @@ namespace test1
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(415, 261);
             this.dataGridView2.TabIndex = 6;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            this.dataGridView2.MouseCaptureChanged += new System.EventHandler(this.dataGridView2_MouseCaptureChanged);
             // 
             // Column1
             // 
@@ -106,6 +103,11 @@ namespace test1
             this.Column2.HeaderText = "Mã đơn hàng";
             this.Column2.Name = "Column2";
             this.Column2.Width = 70;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Ngày tạo hóa đơn";
+            this.Column10.Name = "Column10";
             // 
             // Column7
             // 
@@ -135,26 +137,6 @@ namespace test1
             this.label2.TabIndex = 8;
             this.label2.Text = "Mã đơn hàng";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(21, 319);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 17);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Tên sản phẩm";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(293, 319);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 17);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Mã sản phẩm";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -165,32 +147,14 @@ namespace test1
             this.label6.TabIndex = 16;
             this.label6.Text = "Tên nhân viên";
             // 
-            // comboBox1
+            // comboBoxTenNV
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(136, 316);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 20;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(401, 316);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 21;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(309, 325);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
-            this.comboBox3.TabIndex = 22;
+            this.comboBoxTenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.comboBoxTenNV.FormattingEnabled = true;
+            this.comboBoxTenNV.Location = new System.Drawing.Point(309, 325);
+            this.comboBoxTenNV.Name = "comboBoxTenNV";
+            this.comboBoxTenNV.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxTenNV.TabIndex = 22;
             // 
             // dataGridView1
             // 
@@ -205,7 +169,7 @@ namespace test1
             this.dataGridViewTextBoxColumn5});
             this.dataGridView1.Location = new System.Drawing.Point(6, 19);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(565, 261);
+            this.dataGridView1.Size = new System.Drawing.Size(565, 442);
             this.dataGridView1.TabIndex = 23;
             // 
             // Column8
@@ -248,14 +212,15 @@ namespace test1
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.Width = 80;
             // 
-            // comboBox4
+            // comboBoxMaDH
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(123, 325);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(82, 24);
-            this.comboBox4.TabIndex = 24;
+            this.comboBoxMaDH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.comboBoxMaDH.FormattingEnabled = true;
+            this.comboBoxMaDH.Location = new System.Drawing.Point(123, 325);
+            this.comboBoxMaDH.Name = "comboBoxMaDH";
+            this.comboBoxMaDH.Size = new System.Drawing.Size(82, 24);
+            this.comboBoxMaDH.TabIndex = 24;
+            this.comboBoxMaDH.TextChanged += new System.EventHandler(this.comboBoxMaDH_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -267,23 +232,15 @@ namespace test1
             this.label5.TabIndex = 26;
             this.label5.Text = "Tên khách hàng";
             // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox4.Location = new System.Drawing.Point(123, 382);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 25;
-            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBoxTenKH);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.comboBox4);
-            this.groupBox1.Controls.Add(this.comboBox3);
+            this.groupBox1.Controls.Add(this.comboBoxMaDH);
+            this.groupBox1.Controls.Add(this.comboBoxTenNV);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dataGridView2);
@@ -293,6 +250,15 @@ namespace test1
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Đơn hàng";
+            // 
+            // comboBoxTenKH
+            // 
+            this.comboBoxTenKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.comboBoxTenKH.FormattingEnabled = true;
+            this.comboBoxTenKH.Location = new System.Drawing.Point(123, 385);
+            this.comboBoxTenKH.Name = "comboBoxTenKH";
+            this.comboBoxTenKH.Size = new System.Drawing.Size(144, 24);
+            this.comboBoxTenKH.TabIndex = 30;
             // 
             // button2
             // 
@@ -304,6 +270,7 @@ namespace test1
             this.button2.TabIndex = 28;
             this.button2.Text = "Cập nhật";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -315,6 +282,7 @@ namespace test1
             this.button1.TabIndex = 27;
             this.button1.Text = "Xóa";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -329,14 +297,7 @@ namespace test1
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(464, 104);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(584, 488);
@@ -344,40 +305,7 @@ namespace test1
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi tiết đơn hàng";
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button4.Location = new System.Drawing.Point(105, 428);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 33);
-            this.button4.TabIndex = 31;
-            this.button4.Text = "Cập nhật";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button5.Location = new System.Drawing.Point(358, 428);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 33);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "Xóa";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button6.Location = new System.Drawing.Point(231, 428);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 33);
-            this.button6.TabIndex = 32;
-            this.button6.Text = "Tìm kiếm";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // Danh_sách_đơn_hàng
+            // Danh_Sach_Don_Hang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -386,14 +314,14 @@ namespace test1
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Danh_sách_đơn_hàng";
+            this.Name = "Danh_Sach_Don_Hang";
             this.Text = "Danh_sách_đơn_hàng";
+            this.Load += new System.EventHandler(this.Danh_Sach_Don_Hang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -404,29 +332,16 @@ namespace test1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.ComboBox comboBoxTenNV;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBoxMaDH;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
@@ -434,5 +349,12 @@ namespace test1
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.ComboBox comboBoxTenKH;
     }
 }

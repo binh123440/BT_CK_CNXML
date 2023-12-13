@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <DienThoais>
   <DienThoai>
     <MaDT>DT01</MaDT>
@@ -13,7 +13,7 @@
     <TenDT>iPhone 15 Pro</TenDT>
     <MoTa>iphone apple</MoTa>
     <Gia>30000000</Gia>
-    <SoLuong>100</SoLuong>
+    <SoLuong>99</SoLuong>
     <Anh>hinh2.png</Anh>
   </DienThoai>
   <DienThoai>

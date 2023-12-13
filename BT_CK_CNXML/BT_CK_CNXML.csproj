@@ -58,8 +58,12 @@
     <Compile Include="Danh_sach_don_hang.Designer.cs">
       <DependentUpon>Danh_sach_don_hang.cs</DependentUpon>
     </Compile>
+    <Compile Include="MODELS\Dang_ky.cs" />
+    <Compile Include="MODELS\Danh_sach_don_hang.cs" />
+    <Compile Include="MODELS\Danh_sach_khach_hang.cs" />
     <Compile Include="MODELS\model_DANGNHAP.cs" />
     <Compile Include="MODELS\model_XMLFile.cs" />
+    <Compile Include="MODELS\Quan_ly_nhan_vien.cs" />
     <Compile Include="MODELS\SQL2XML.cs" />
     <Compile Include="MODELS\XML2SQL.cs" />
     <Compile Include="Quan_ly_kho_hang.cs">

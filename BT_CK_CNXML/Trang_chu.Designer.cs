@@ -50,6 +50,7 @@ namespace test1
             this.btn_quan_ly_kho_hang.TabIndex = 0;
             this.btn_quan_ly_kho_hang.Text = "Quản lý kho hàng";
             this.btn_quan_ly_kho_hang.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_kho_hang.Click += new System.EventHandler(this.btn_quan_ly_kho_hang_Click);
             // 
             // btn_tao_don_hang
             // 
@@ -73,6 +74,7 @@ namespace test1
             this.btn_quan_ly_khach_hang.TabIndex = 2;
             this.btn_quan_ly_khach_hang.Text = "Quản lý khách hàng";
             this.btn_quan_ly_khach_hang.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_khach_hang.Click += new System.EventHandler(this.btn_quan_ly_khach_hang_Click);
             // 
             // btn_cap_nhat_sao_luu
             // 
@@ -96,6 +98,7 @@ namespace test1
             this.btn_danh_sach_don_hang.TabIndex = 4;
             this.btn_danh_sach_don_hang.Text = "Lịch sử thanh toán";
             this.btn_danh_sach_don_hang.UseVisualStyleBackColor = false;
+            this.btn_danh_sach_don_hang.Click += new System.EventHandler(this.btn_danh_sach_don_hang_Click);
             // 
             // label1
             // 
@@ -121,6 +124,7 @@ namespace test1
             this.btn_quan_ly_nhan_vien.TabIndex = 6;
             this.btn_quan_ly_nhan_vien.Text = "Quản lý nhân viên";
             this.btn_quan_ly_nhan_vien.UseVisualStyleBackColor = false;
+            this.btn_quan_ly_nhan_vien.Click += new System.EventHandler(this.btn_quan_ly_nhan_vien_Click);
             // 
             // pictureBox1
             // 
