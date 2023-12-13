@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" standalone="yes"?>
 <NhanViens>
   <NhanVien>
     <MaNV>NV01</MaNV>
@@ -27,5 +27,12 @@
     <KPI>22</KPI>
     <SDT>0337534345</SDT>
     <NamSinh>1999</NamSinh>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV05</MaNV>
+    <TenNV>Lê Hà Bình</TenNV>
+    <KPI>22</KPI>
+    <SDT>337534345</SDT>
+    <NamSinh>2003</NamSinh>
   </NhanVien>
 </NhanViens>

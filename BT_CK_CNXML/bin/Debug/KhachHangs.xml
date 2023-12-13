@@ -1,59 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" standalone="yes"?>
 <KhachHangs>
-	<KhachHang>
-		<MaKH>KH01</MaKH>
-		<TenKH>Nguyễn Viết Hùng</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0905838948</SDT>
-		<NamSinh>1995</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH02</MaKH>
-		<TenKH>Trần Nguyên Thảo</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0937736877</SDT>
-		<NamSinh>1997</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH03</MaKH>
-		<TenKH>Lê Xuân An</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0905863448</SDT>
-		<NamSinh>2000</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH04</MaKH>
-		<TenKH>Nguyễn Trọng Nhân</TenKH>
-		<DiaChi>Quảng Nam</DiaChi>
-		<SDT>0337534242</SDT>
-		<NamSinh>1987</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH05</MaKH>
-		<TenKH>Nguyễn Lan Ngọc</TenKH>
-		<DiaChi>Huế</DiaChi>
-		<SDT>0905837465</SDT>
-		<NamSinh>1991</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH06</MaKH>
-		<TenKH>Trần Văn Tiến</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0903556594</SDT>
-		<NamSinh>2003</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH07</MaKH>
-		<TenKH>Lê Viết Đức</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0908836946</SDT>
-		<NamSinh>1999</NamSinh>
-	</KhachHang>
-	<KhachHang>
-		<MaKH>KH08</MaKH>
-		<TenKH>Lê Mai Hương</TenKH>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0907838463</SDT>
-		<NamSinh>1986</NamSinh>
-	</KhachHang>
+  <KhachHang>
+    <MaKH>KH01</MaKH>
+    <TenKH>Nguyễn Viết Hùng</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0905838948</SDT>
+    <NamSinh>1995</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH02</MaKH>
+    <TenKH>Trần Nguyên Thảo</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0937736877</SDT>
+    <NamSinh>1997</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH03</MaKH>
+    <TenKH>Lê Xuân An</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0905863448</SDT>
+    <NamSinh>2000</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH04</MaKH>
+    <TenKH>Nguyễn Trọng Nhân</TenKH>
+    <DiaChi>Quảng Nam</DiaChi>
+    <SDT>0337534242</SDT>
+    <NamSinh>1987</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH05</MaKH>
+    <TenKH>Nguyễn Lan Ngọc</TenKH>
+    <DiaChi>Huế</DiaChi>
+    <SDT>0905837465</SDT>
+    <NamSinh>1991</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH06</MaKH>
+    <TenKH>Trần Văn Tiến</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0903556594</SDT>
+    <NamSinh>2003</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH07</MaKH>
+    <TenKH>Lê Viết Đức</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0908836946</SDT>
+    <NamSinh>1999</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH08</MaKH>
+    <TenKH>Lê Mai Hương</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0907838463</SDT>
+    <NamSinh>1986</NamSinh>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH09</MaKH>
+    <TenKH>Lê Hà Bình</TenKH>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0907838463</SDT>
+    <NamSinh>2003</NamSinh>
+  </KhachHang>
 </KhachHangs>

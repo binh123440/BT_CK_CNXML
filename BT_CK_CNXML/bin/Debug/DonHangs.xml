@@ -1,45 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" standalone="yes"?>
 <DonHangs>
   <DonHang>
     <MaDH>DH01</MaDH>
-    <NgayDH>2023-06-01</NgayDH>
+    <NgayDH>2023-06-01T00:00:00+07:00</NgayDH>
     <MaKH>KH01</MaKH>
     <MaNV>NV03</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH02</MaDH>
-    <NgayDH>2023-06-15</NgayDH>
+    <NgayDH>2023-06-15T00:00:00+07:00</NgayDH>
     <MaKH>KH02</MaKH>
     <MaNV>NV03</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH03</MaDH>
-    <NgayDH>2023-07-23</NgayDH>
+    <NgayDH>2023-07-23T00:00:00+07:00</NgayDH>
     <MaKH>KH03</MaKH>
     <MaNV>NV02</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH04</MaDH>
-    <NgayDH>2023-07-25</NgayDH>
+    <NgayDH>2023-07-25T00:00:00+07:00</NgayDH>
     <MaKH>KH04</MaKH>
     <MaNV>NV01</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH05</MaDH>
-    <NgayDH>2023-08-15</NgayDH>
+    <NgayDH>2023-08-15T00:00:00+07:00</NgayDH>
     <MaKH>KH05</MaKH>
     <MaNV>NV01</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH06</MaDH>
-    <NgayDH>2023-09-08</NgayDH>
-    <MaKH>KH03</MaKH>
+    <NgayDH>2023-09-08T00:00:00+07:00</NgayDH>
+    <MaKH>KH06</MaKH>
     <MaNV>NV04</MaNV>
   </DonHang>
   <DonHang>
     <MaDH>DH07</MaDH>
-    <NgayDH>2023-10-06</NgayDH>
+    <NgayDH>2023-10-06T00:00:00+07:00</NgayDH>
     <MaKH>KH07</MaKH>
     <MaNV>NV02</MaNV>
+  </DonHang>
+  <DonHang>
+    <MaDH>DH08</MaDH>
+    <NgayDH>2023-10-31T00:00:00+07:00</NgayDH>
+    <MaKH>KH08</MaKH>
+    <MaNV>NV04</MaNV>
+  </DonHang>
+  <DonHang>
+    <MaDH>DH09</MaDH>
+    <NgayDH>2023-12-13T00:00:00+07:00</NgayDH>
+    <MaKH>KH01</MaKH>
+    <MaNV>NV01</MaNV>
   </DonHang>
 </DonHangs>

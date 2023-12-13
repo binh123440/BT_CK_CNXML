@@ -1,83 +1,83 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" standalone="yes"?>
 <DienThoais>
-	<DienThoai>
-		<MaDT>DT01</MaDT>
-		<TenDT>iPhone X</TenDT>
-		<MoTa>iphone apple</MoTa>
-		<Gia>18000000</Gia>
-		<SoLuong>100</SoLuong>
-		<Anh>hinh1.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT02</MaDT>
-		<TenDT>iPhone 15 Pro</TenDT>
-		<MoTa>iphone apple</MoTa>
-		<Gia>30000000</Gia>
-		<SoLuong>100</SoLuong>
-		<Anh>hinh2.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT03</MaDT>
-		<TenDT>Samsung Galaxy S22 Ultra</TenDT>
-		<MoTa>dien thoai samsung</MoTa>
-		<Gia>25000000</Gia>
-		<SoLuong>200</SoLuong>
-		<Anh>hinh3.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT04</MaDT>
-		<TenDT>Samsung Galaxy Z Fold5</TenDT>
-		<MoTa>dien thoai samsung</MoTa>
-		<Gia>26000000</Gia>
-		<SoLuong>150</SoLuong>
-		<Anh>hinh4.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT05</MaDT>
-		<TenDT>iPhone 14</TenDT>
-		<MoTa>iphone apple</MoTa>
-		<Gia>20000000</Gia>
-		<SoLuong>240</SoLuong>
-		<Anh>hinh5.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT06</MaDT>
-		<TenDT>OPPO Reno10</TenDT>
-		<MoTa>dien thoai oppo</MoTa>
-		<Gia>10000000</Gia>
-		<SoLuong>500</SoLuong>
-		<Anh>hinh6.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT07</MaDT>
-		<TenDT>Redmi 13T</TenDT>
-		<MoTa>dien thoai redmi</MoTa>
-		<Gia>11000000</Gia>
-		<SoLuong>100</SoLuong>
-		<Anh>hinh7.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT08</MaDT>
-		<TenDT>iPhone 11 Pro Max</TenDT>
-		<MoTa>iphone apple</MoTa>
-		<Gia>20000000</Gia>
-		<SoLuong>300</SoLuong>
-		<Anh>hinh8.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT09</MaDT>
-		<TenDT>Samsung Galaxy Note 9</TenDT>
-		<MoTa>dien thoai samsung</MoTa>
-		<Gia>15000000</Gia>
-		<SoLuong>250</SoLuong>
-		<Anh>hinh9.png</Anh>
-	</DienThoai>
-	<DienThoai>
-		<MaDT>DT10</MaDT>
-		<TenDT>iPhone 15 Pro Max</TenDT>
-		<MoTa>iphone apple</MoTa>
-		<Gia>31000000</Gia>
-		<SoLuong>100</SoLuong>
-		<Anh>hinh10.png</Anh>
-	</DienThoai>
+  <DienThoai>
+    <MaDT>DT01</MaDT>
+    <TenDT>iPhone X</TenDT>
+    <MoTa>iphone apple</MoTa>
+    <Gia>18000000</Gia>
+    <SoLuong>1</SoLuong>
+    <Anh>hinh1.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT02</MaDT>
+    <TenDT>iPhone 15 Pro</TenDT>
+    <MoTa>iphone apple</MoTa>
+    <Gia>30000000</Gia>
+    <SoLuong>100</SoLuong>
+    <Anh>hinh2.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT03</MaDT>
+    <TenDT>Samsung Galaxy S22 Ultra</TenDT>
+    <MoTa>dien thoai samsung</MoTa>
+    <Gia>25000000</Gia>
+    <SoLuong>200</SoLuong>
+    <Anh>hinh3.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT04</MaDT>
+    <TenDT>Samsung Galaxy Z Fold5</TenDT>
+    <MoTa>dien thoai samsung</MoTa>
+    <Gia>26000000</Gia>
+    <SoLuong>150</SoLuong>
+    <Anh>hinh4.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT05</MaDT>
+    <TenDT>iPhone 14</TenDT>
+    <MoTa>iphone apple</MoTa>
+    <Gia>20000000</Gia>
+    <SoLuong>240</SoLuong>
+    <Anh>hinh5.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT06</MaDT>
+    <TenDT>OPPO Reno10</TenDT>
+    <MoTa>dien thoai oppo</MoTa>
+    <Gia>10000000</Gia>
+    <SoLuong>500</SoLuong>
+    <Anh>hinh6.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT07</MaDT>
+    <TenDT>Redmi 13T</TenDT>
+    <MoTa>dien thoai redmi</MoTa>
+    <Gia>11000000</Gia>
+    <SoLuong>100</SoLuong>
+    <Anh>hinh7.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT08</MaDT>
+    <TenDT>iPhone 11 Pro Max</TenDT>
+    <MoTa>iphone apple</MoTa>
+    <Gia>20000000</Gia>
+    <SoLuong>300</SoLuong>
+    <Anh>hinh8.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT09</MaDT>
+    <TenDT>Samsung Galaxy Note 9</TenDT>
+    <MoTa>dien thoai samsung</MoTa>
+    <Gia>15000000</Gia>
+    <SoLuong>250</SoLuong>
+    <Anh>hinh9.png</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT10</MaDT>
+    <TenDT>iPhone 15 Pro Max</TenDT>
+    <MoTa>iphone apple</MoTa>
+    <Gia>31000000</Gia>
+    <SoLuong>100</SoLuong>
+    <Anh>hinh10.png</Anh>
+  </DienThoai>
 </DienThoais>

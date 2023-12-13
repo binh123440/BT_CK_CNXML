@@ -61,7 +61,10 @@
     <Compile Include="Model\Dang_ky.cs" />
     <Compile Include="Model\Danh_sach_don_hang.cs" />
     <Compile Include="Model\Danh_sach_khach_hang.cs" />
+    <Compile Include="Model\Login.cs" />
     <Compile Include="Model\Quan_ly_nhan_vien.cs" />
+    <Compile Include="Model\SQL2XML.cs" />
+    <Compile Include="Model\XML2SQL.cs" />
     <Compile Include="Model\XMLFile.cs" />
     <Compile Include="Quan_ly_kho_hang.cs">
       <SubType>Form</SubType>
@@ -155,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
