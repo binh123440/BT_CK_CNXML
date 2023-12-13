@@ -1,4 +1,5 @@
 ﻿create database dbQuanLyBanDienThoai
+go
 
 use dbQuanLyBanDienThoai 
 go
