@@ -1,0 +1,36 @@
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\bin\Debug\test1.exe.config
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\bin\Debug\test1.exe
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\bin\Debug\test1.pdb
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.AssemblyReference.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Form1.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Properties.Resources.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.GenerateResource.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.CoreCompileInputs.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.exe
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.pdb
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Cap_nhat_sao_luu.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Danh_sach_don_hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Quan_ly_kho_hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Quan_ly_khach_hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Quan_ly_nhan_vien.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Tao_don_hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Trang_chu.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database\BT_CK_CNXML\obj\Debug\test1.Dang_ky.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\bin\Debug\test1.exe.config
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\bin\Debug\test1.exe
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\bin\Debug\test1.pdb
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.AssemblyReference.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Cap_Nhat_Sao_Luu.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Danh_Sach_Don_Hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Quan_Ly_Kho_Hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Quan_Ly_Khach_Hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Quan_Ly_Nhan_Vien.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Tao_Don_Hang.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Trang_Chu.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Dang_Ky.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Form1.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.Properties.Resources.resources
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.GenerateResource.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\BT_CK_CNXML.csproj.CoreCompileInputs.cache
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.exe
+D:\Dữ liệu\Tài liệu\HỌC TẬP\BT_CK_CNXML-MinhMan_database - Copy\BT_CK_CNXML\obj\Debug\test1.pdb
